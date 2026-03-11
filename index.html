@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redacted Club Studio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0D1117;
+      color: #ffffff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .logo {
+      font-size: 48px;
+      font-weight: 900;
+      color: #FF6B6B;
+      letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+    .tagline {
+      color: #8b949e;
+      font-size: 16px;
+      margin-bottom: 48px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .apps {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      max-width: 700px;
+      margin-bottom: 48px;
+    }
+    .app-card {
+      background: #161B22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 24px 28px;
+      width: 200px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s;
+    }
+    .app-card:hover { border-color: #FF6B6B; }
+    .app-card .icon { font-size: 36px; margin-bottom: 10px; }
+    .app-card .name { font-weight: 700; font-size: 15px; margin-bottom: 4px; }
+    .app-card .desc { color: #8b949e; font-size: 12px; }
+    .contact {
+      color: #8b949e;
+      font-size: 13px;
+    }
+    .contact a { color: #FF6B6B; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="logo">Redacted Club Studio</div>
+  <div class="tagline">Mobile Games &amp; Apps</div>
+
+  <div class="apps">
+    <div class="app-card">
+      <div class="icon">🫧</div>
+      <div class="name">Popper</div>
+      <div class="desc">Casual bubble-popping idle game</div>
+    </div>
+    <div class="app-card">
+      <div class="icon">🎨</div>
+      <div class="name">Ball Sort Puzzle</div>
+      <div class="desc">Sort the coloured balls to solve each puzzle</div>
+    </div>
+    <div class="app-card">
+      <div class="icon">🔢</div>
+      <div class="name">Sudoku</div>
+      <div class="desc">Classic number puzzle game</div>
+    </div>
+  </div>
+
+  <div class="contact">
+    Contact: <a href="mailto:redactedclubstudios@gmail.com">redactedclubstudios@gmail.com</a>
+  </div>
+</body>
+</html>
